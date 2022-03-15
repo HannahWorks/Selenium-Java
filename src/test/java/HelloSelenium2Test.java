@@ -1,38 +1,21 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.BeforeClass;
+import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import java.security.PublicKey;
 
 public class HelloSelenium2Test {
-
-    WebDriver driver;
-
-    @BeforeAll
-    static void setupClass() {
+    //This method will run once before all of the tests in our class
+    @BeforeClass
+    public static void setupClass() {
         WebDriverManager.chromedriver().setup();
     }
-
-    @BeforeEach
-    public void setupTest() {
-        driver = new ChromeDriver();
-    }
-
-    @AfterEach
-    public void teardown() {
-        if (driver != null) {
-            driver.quit();
-        }
-    }
-
     @Test
-    public void test() {
+    public void smarterTest()
+    {
+        WebDriver driver = new ChromeDriver();
         driver.get("https://www.saucedemo.com/");
+        driver.quit();
     }
-
-
 }
