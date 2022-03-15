@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-04T09:45:33 PST" name="Command line suite" finished-at="2022-03-04T09:45:52 PST" duration-ms="19055">
+    <groups>
+    </groups>
+    <test started-at="2022-03-04T09:45:33 PST" name="Command line test" finished-at="2022-03-04T09:45:52 PST" duration-ms="19055">
+      <class name="SeleniumTest">
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:SeleniumTest@ba2f4ec]" started-at="2022-03-04T09:45:33 PST" name="setupClass" finished-at="2022-03-04T09:45:34 PST" duration-ms="655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:SeleniumTest@ba2f4ec]" started-at="2022-03-04T09:45:34 PST" name="setupTest" finished-at="2022-03-04T09:45:35 PST" duration-ms="1794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="firstUrlTest()[pri:0, instance:SeleniumTest@ba2f4ec]" started-at="2022-03-04T09:45:35 PST" name="firstUrlTest" finished-at="2022-03-04T09:45:40 PST" duration-ms="4257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstUrlTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SeleniumTest@ba2f4ec]" started-at="2022-03-04T09:45:40 PST" name="teardown" finished-at="2022-03-04T09:45:40 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:SeleniumTest@ba2f4ec]" started-at="2022-03-04T09:45:40 PST" name="setupTest" finished-at="2022-03-04T09:45:43 PST" duration-ms="2802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="secondUrlTest()[pri:0, instance:SeleniumTest@ba2f4ec]" started-at="2022-03-04T09:45:43 PST" name="secondUrlTest" finished-at="2022-03-04T09:45:46 PST" duration-ms="3313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondUrlTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SeleniumTest@ba2f4ec]" started-at="2022-03-04T09:45:46 PST" name="teardown" finished-at="2022-03-04T09:45:46 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:SeleniumTest@ba2f4ec]" started-at="2022-03-04T09:45:46 PST" name="setupTest" finished-at="2022-03-04T09:45:49 PST" duration-ms="2795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="thirdUrlTest()[pri:0, instance:SeleniumTest@ba2f4ec]" started-at="2022-03-04T09:45:49 PST" name="thirdUrlTest" finished-at="2022-03-04T09:45:52 PST" duration-ms="3410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdUrlTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SeleniumTest@ba2f4ec]" started-at="2022-03-04T09:45:52 PST" name="teardown" finished-at="2022-03-04T09:45:52 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SeleniumTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
